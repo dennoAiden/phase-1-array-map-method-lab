@@ -19,5 +19,6 @@ const titleCased = () => {
       .join(' ')
   );
 };
- const titleCasedTutorials = tutorials.map(titleCased);
- console.log(titleCasedTutorials);
+
+const titleCasedTutorials = titleCased();
+console.log(titleCasedTutorials);
